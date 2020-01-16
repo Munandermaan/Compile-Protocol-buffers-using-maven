@@ -6,10 +6,6 @@ option java_outer_classname = "HelloWorldProto";
 
 package helloworld;
 
-service GreeterService {
-    rpc SayHello (HelloRequest) returns (HelloReply) {}
-}
-
 message HelloRequest {
     string name = 1;
 }
