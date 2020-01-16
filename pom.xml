@@ -32,6 +32,7 @@
                             <inputDirectories>
                                 <include>src/main/protobuf</include>
                             </inputDirectories>
+                            <outputDirectory>src/main/generated</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>
